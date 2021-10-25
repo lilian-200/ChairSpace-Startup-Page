@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('components/Banner.css');
+@import url('components/Factories.css');
+@import url('components/Productstory.css');
+
+
+
+body{
+	font-family: 'Lora',serif;
+	font-size: 18px;
+	margin: 0px;
+}
+
+h1,h2,h3 {
+	font-family: 'Roboto',sans-serif;
+	font-weight: bold;
+}
+
+
+.box{
+	 padding: 40px;
+	 margin: 20px 0px;
+	 text-align: center;
+}
+
+.box p{
+	text-align: left;
+}
+
+
+.banner2{
+   background-image: url(../../images/Banner2.jpg);
+}
+
+
+
+
+.Nobox-Black{
+	background-color: rgb(64,55,51);
+	padding: 50px;
+
+}
+
+.Nobox-Black h2{
+	text-align: center;
+	color: rgb(190, 142, 106);
+}
+
+.list-inline a{
+	text-decoration: none;
+}
+
+
+.list-inline{
+	list-style: none;
+    text-align: center;
+    padding-right: 50px;
+   }
+
+
+.list-inline li {
+    display: inline;
+    padding-left: 10px;
+    margin: auto;
+}
+
+.list-inline i{
+    font-size: 50px;
+    color:rgb(190, 142, 106) ;
+}
+
+.list-inline i:hover{
+    color: rgb(139, 94, 61);
+}
